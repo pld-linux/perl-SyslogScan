@@ -1,0 +1,24 @@
+--- SyslogScan-0.32/t/SendmailUtil.t.perlpath	Tue Dec 10 13:31:50 1996
++++ SyslogScan-0.32/t/SendmailUtil.t	Wed May 12 00:30:34 1999
+@@ -1,4 +1,4 @@
+-#!/usr/bin/perl5
++#!/usr/bin/perl
+ 
+ $::gbQuiet = 1;
+ 
+--- SyslogScan-0.32/t/SyslogEntry.t.perlpath	Tue Dec 10 13:29:43 1996
++++ SyslogScan-0.32/t/SyslogEntry.t	Wed May 12 00:30:34 1999
+@@ -1,4 +1,4 @@
+-#!/usr/bin/perl5
++#!/usr/bin/perl
+ 
+ print "1..4\n";
+ print "Running automated test suite for $0:\n";
+--- SyslogScan-0.32/read_mail_log.pl.perlpath	Mon Nov 24 16:04:52 1997
++++ SyslogScan-0.32/read_mail_log.pl	Wed May 12 00:30:34 1999
+@@ -1,4 +1,4 @@
+-#!/usr/bin/perl5
++#!/usr/bin/perl
+ #-
+ #-read_mail_log.pl:  Prints a summary of mail routed through system to STDOUT
+ #-
