@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-Summary:	SyslogScan perl module
-Summary(pl):	Modu³ perla SyslogScan
+Summary:	SyslogScan contains routines to parse system logs
+Summary(pl):	SyslogScan zawiera funkcje do analizy logów systemowych
 Name:		perl-SyslogScan
 Version:	0.32
 Release:	9
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 SyslogScan contains routines to parse system logs.
 
 %description -l pl
-SyslogScan zawiera rutyny do analizy logów systemowych.
+SyslogScan zawiera funkcje do analizy logów systemowych.
 
 %prep
 %setup -q -n SyslogScan-%{version}
