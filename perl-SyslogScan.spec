@@ -4,11 +4,11 @@ Summary(pl):	Modu³ perla SyslogScan
 Name:		perl-SyslogScan
 Version:	0.32
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Syslog/SyslogScan-%{version}.tar.gz
-Patch:		perl-SyslogScan-paths.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Syslog/SyslogScan-%{version}.tar.gz
+Patch0:		perl-SyslogScan-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
