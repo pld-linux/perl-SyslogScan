@@ -26,7 +26,7 @@ SyslogScan zawiera rutyny do analizy logów systemowych.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
