@@ -32,14 +32,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README HISTORY
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README HISTORY
 %{perl_sitelib}/SyslogScan
 %{perl_sitelib}/read_mail_log.pl
 %{_mandir}/man3/*
