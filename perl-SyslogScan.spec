@@ -3,7 +3,7 @@ Summary:	SyslogScan perl module
 Summary(pl):	Modu³ perla SyslogScan
 Name:		perl-SyslogScan
 Version:	0.32
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/SyslogScan/SyslogScan-%{version}.tar.gz
