@@ -24,7 +24,7 @@ SyslogScan zawiera rutyny do analizy logów systemowych.
 %patch -p1
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
