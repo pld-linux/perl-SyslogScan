@@ -7,6 +7,7 @@ Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/SyslogScan/SyslogScan-%{version}.tar.gz
+# Source0-md5:	d3923593207e0dbf5b26064d01518d4c
 Patch0:		%{name}-paths.patch
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
