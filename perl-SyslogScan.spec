@@ -7,7 +7,7 @@ Summary:	SyslogScan contains routines to parse system logs
 Summary(pl):	SyslogScan zawiera funkcje do analizy logów systemowych
 Name:		perl-SyslogScan
 Version:	0.32
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
