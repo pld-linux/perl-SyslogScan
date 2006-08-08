@@ -27,7 +27,7 @@ SyslogScan zawiera funkcje do analizy logów systemowych.
 
 %prep
 %setup -q -n SyslogScan-%{version}
-%patch -p1
+%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \
