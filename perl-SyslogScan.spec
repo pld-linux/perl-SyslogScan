@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	SyslogScan contains routines to parse system logs
-Summary(pl):	SyslogScan zawiera funkcje do analizy logów systemowych
+Summary(pl.UTF-8):   SyslogScan zawiera funkcje do analizy logÃ³w systemowych
 Name:		perl-SyslogScan
 Version:	0.32
 Release:	10
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 SyslogScan contains routines to parse system logs.
 
-%description -l pl
-SyslogScan zawiera funkcje do analizy logów systemowych.
+%description -l pl.UTF-8
+SyslogScan zawiera funkcje do analizy logÃ³w systemowych.
 
 %prep
 %setup -q -n SyslogScan-%{version}
