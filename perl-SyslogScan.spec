@@ -1,7 +1,8 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
+
+%define		pdir	SyslogScan
 %include	/usr/lib/rpm/macros.perl
 Summary:	SyslogScan contains routines to parse system logs
 Summary(pl.UTF-8):	SyslogScan zawiera funkcje do analizy logów systemowych
@@ -14,8 +15,9 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/SyslogScan/SyslogScan-%{version}.tar.gz
 # Source0-md5:	d3923593207e0dbf5b26064d01518d4c
 Patch0:		%{name}-paths.patch
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/SyslogScan-/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
