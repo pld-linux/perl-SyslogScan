@@ -3,7 +3,6 @@
 %bcond_without	tests	# do not perform "make test"
 
 %define		pdir	SyslogScan
-%include	/usr/lib/rpm/macros.perl
 Summary:	SyslogScan contains routines to parse system logs
 Summary(pl.UTF-8):	SyslogScan zawiera funkcje do analizy logów systemowych
 Name:		perl-SyslogScan
